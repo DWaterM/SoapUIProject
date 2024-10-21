@@ -14,7 +14,7 @@ testRunner.testCase.testSuite.project.getTestSuiteByName('TestSuite 1').getTestC
 log.info ("  --> "+testRunner.testCase.getSetupScript());
 log.info ("  --> "+testRunner.testCase.getTearDownScript());
 
-</script></con:config></con:testStep><con:setupScript>log.info "setup for test1"</con:setupScript><con:tearDownScript>log.info "teardown for test1"</con:tearDownScript><con:properties/></con:testCase><con:properties/><con:setupScript/></con:testSuite><con:properties/><con:afterLoadScript>//groovy code can be given at project load script to load setup and teardown scritps from file
+</script></con:config></con:testStep><con:testStep type="groovy" name="Groovy Scriptadded" id="cce9eae5-f79c-4c1c-aaec-1132ae1362cd"><con:settings/><con:config><script/></con:config></con:testStep><con:setupScript>log.info "setup for test1"</con:setupScript><con:tearDownScript>log.info "teardown for test1"</con:tearDownScript><con:properties/></con:testCase><con:properties/><con:setupScript/></con:testSuite><con:properties/><con:afterLoadScript>//groovy code can be given at project load script to load setup and teardown scritps from file
 def su = new File("C:/Users/michaela.datkova/Desktop/setup.txt").text
 def td  = new File("C:/Users/michaela.datkova/Desktop/teardown.txt").text
 
